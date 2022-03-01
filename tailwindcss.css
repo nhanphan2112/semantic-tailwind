@@ -17,3 +17,11 @@ body {
 	background-color: #f5f4ef;
 	font-family: Roboto, sans-serif;
 }
+
+.root,
+#root {
+	--primary-color: #c74350;
+	--text-dark-color: #000305;
+	--text-light-color: #fff;
+	--text-highlight-color: #f6cf74;
+}

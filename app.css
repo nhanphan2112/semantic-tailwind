@@ -468,52 +468,81 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
 
-.w-80 {
-  width: 20rem;
-}
-
-.w-72 {
-  width: 18rem;
-}
-
-.w-5\/6 {
-  width: 83.333333%;
+.w-3\/4 {
+  width: 75%;
 }
 
 .flex-col {
   flex-direction: column;
 }
 
-.content-center {
-  align-content: center;
-}
-
 .items-center {
   align-items: center;
 }
 
-.justify-center {
-  justify-content: center;
+.rounded {
+  border-radius: 0.25rem;
 }
 
-.justify-items-center {
-  justify-items: center;
+.bg-textDarkColor {
+  background-color: var(--text-dark-color);
 }
 
-.self-auto {
-  align-self: auto;
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-.self-center {
-  align-self: center;
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
-.align-middle {
-  vertical-align: middle;
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.pt-1 {
+  padding-top: 0.25rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+
+.pb-4 {
+  padding-bottom: 1rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 .text-3xl {
@@ -521,24 +550,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2.25rem;
 }
 
-.font-extrabold {
-  font-weight: 800;
-}
-
-.font-bold {
-  font-weight: 700;
-}
-
 .font-semibold {
   font-weight: 600;
 }
 
-.font-medium {
-  font-weight: 500;
+.text-primaryColor {
+  color: var(--primary-color);
 }
 
-.font-normal {
-  font-weight: 400;
+.text-textLightColor {
+  color: var(--text-light-color);
 }
 
 .underline {
@@ -566,4 +587,16 @@ $social-icons: "http://via.placeholder.com/15x15"; */
 body {
   background-color: #f5f4ef;
   font-family: Roboto, sans-serif;
+}
+
+.root,
+#root {
+  --primary-color: #c74350;
+  --text-dark-color: #000305;
+  --text-light-color: #fff;
+  --text-highlight-color: #f6cf74;
+}
+
+.hover\:bg-primaryColor:hover {
+  background-color: var(--primary-color);
 }
