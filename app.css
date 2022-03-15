@@ -656,6 +656,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 0.5rem;
 }
 
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pl-\[10px\] {
+  padding-left: 10px;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
