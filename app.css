@@ -496,8 +496,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 50px;
 }
 
-.w-3\/4 {
-  width: 75%;
+.w-4\/5 {
+  width: 80%;
 }
 
 .w-\[250px\] {
@@ -516,14 +516,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 50px;
 }
 
-.w-80 {
-  width: 20rem;
-}
-
-.w-4\/5 {
-  width: 80%;
-}
-
 .basis-1\/2 {
   flex-basis: 50%;
 }
@@ -534,6 +526,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .basis-1\/3 {
   flex-basis: 33.333333%;
+}
+
+.basis-\[\] {
+  flex-basis: ;
+}
+
+.basis-\[60\] {
+  flex-basis: 60;
+}
+
+.basis-\[60\%\] {
+  flex-basis: 60%;
+}
+
+.basis-\[40\%\] {
+  flex-basis: 40%;
 }
 
 .grid-flow-col {
@@ -640,8 +648,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 0.25rem;
 }
 
-.pt-6 {
-  padding-top: 1.5rem;
+.pl-\[10px\] {
+  padding-left: 10px;
+}
+
+.pt-4 {
+  padding-top: 1rem;
 }
 
 .pb-4 {
@@ -656,12 +668,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 0.5rem;
 }
 
-.pt-4 {
-  padding-top: 1rem;
+.pb-\[\] {
+  padding-bottom: ;
 }
 
-.pl-\[10px\] {
-  padding-left: 10px;
+.pb-\[5px\] {
+  padding-bottom: 5px;
+}
+
+.pb-\[10px\] {
+  padding-bottom: 10px;
 }
 
 .text-5xl {
@@ -679,8 +695,53 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.25rem;
 }
 
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-\[small\] {
+  font-size: small;
+}
+
+.text-\[1\.17em\] {
+  font-size: 1.17em;
+}
+
 .font-semibold {
   font-weight: 600;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-\[500\] {
+  font-weight: 500;
+}
+
+.font-\[550\] {
+  font-weight: 550;
+}
+
+.font-\[530\] {
+  font-weight: 530;
+}
+
+.font-\[540\] {
+  font-weight: 540;
+}
+
+.font-\[50\] {
+  font-weight: 50;
+}
+
+.font-\[55\] {
+  font-weight: 55;
+}
+
+.font-\[520\] {
+  font-weight: 520;
 }
 
 .not-italic {
