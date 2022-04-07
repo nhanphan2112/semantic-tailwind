@@ -8,8 +8,6 @@ body {
 @tailwind components;
 @tailwind utilities;
 
-
-
 .root,
 #root {
 	--primary-color: #c74350;
