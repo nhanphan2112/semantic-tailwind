@@ -734,6 +734,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 14px;
 }
 
+.leading-3{
+  line-height: .75rem;
+}
+
+.leading-4{
+  line-height: 1rem;
+}
+
 .text-textLightColor{
   color: var(--text-light-color);
 }
