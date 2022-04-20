@@ -687,6 +687,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 0.5rem;
 }
 
+.pb-\[\]{
+  padding-bottom: ;
+}
+
+.pb-\[20p\]{
+  padding-bottom: 20p;
+}
+
+.pb-\[20px\]{
+  padding-bottom: 20px;
+}
+
+.pt-\[5px\]{
+  padding-top: 5px;
+}
+
 .text-5xl{
   font-size: 3rem;
   line-height: 1;
@@ -708,6 +724,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-\[48px\]{
+  font-size: 48px;
 }
 
 .font-semibold{
@@ -734,12 +754,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 14px;
 }
 
-.leading-3{
-  line-height: .75rem;
+.leading-\[\]{
+  line-height: ;
 }
 
-.leading-4{
-  line-height: 1rem;
+.leading-\[1\.3\]{
+  line-height: 1.3;
 }
 
 .text-textLightColor{
